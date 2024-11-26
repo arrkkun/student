@@ -60,11 +60,11 @@ public class GradeManagementController {
                     model.sortByTotalScore();
                     view.displayStudents(model.getStudents());
                     break;
-                case 6:
-                    System.out.print("请输入CSV文件路径: ");
-                    String csvPath = scanner.nextLine();
-                    model.loadStudentsFromCSV(csvPath);
-                    break;
+//                case 6:
+//                    System.out.print("请输入CSV文件路径: ");
+//                    String csvPath = scanner.nextLine();
+//                    model.loadStudentsFromCSV(csvPath);
+//                    break;
                 case 7:
                     model.clearAllData();
                     view.showMessage("系统数据已清空!");
